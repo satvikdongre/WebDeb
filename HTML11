@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Indian Defence System</title>
+        <style>
+            h2{
+                text-align: right;
+            }
+            div{
+                position: absolute;
+                width: 500px;
+                height: 300px;
+                border-radius: 10px;
+                color:white;
+                padding: 10px;
+                text-align: justify;
+                font-size: 16px;
+            }
+            #army{
+                z-index: 3;
+                background-color: tomato;
+                top: 100px;
+                left: 100px;
+            }
+            
+         #navy{
+            z-index: 2;
+            background-color: deepskyblue;
+            top: 200px;
+            left:400px;
+
+         }
+         #navy:hover{
+            z-index:10;
+         }
+         #airforce{
+            z-index: 1;
+            background-color: yellowgreen;
+            top: 300px;
+            left: 700px;
+         }
+         #airforce:hover{
+            z-index:15;
+         }
+            img{
+                float: right;
+                height: 200px;
+                width: 250px;
+                padding-left: 10px;
+
+            }
+            button{
+                float: right;
+                width: 250px;
+                height: 40px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            <centre>INDIAN DEFENCE SYSTEM</centre>
+        </h1>
+        <button id="army">Indian Army</button>
+        <br><br><br>
+        <button id="navy">Indian Navy</button>
+        <br><br><br>
+        <button id="airforce">Indian Airforce</button>
+        <div id="army">
+            <h2>Indian Army</h2>
+            <img src="army.jpg" alt="Indian Army">
+            The Indian Army is the land-based branch and largest component of the Indian Armed Forces. The President of India is the Supreme Commander of the Indian Army,[3] and its professional head is the Chief of Army Staff (COAS). The Indian Army was established on 1 April 1895 alongside the long established presidency armies of the East India Company, which too were absorbed into it in 1903. 
+        </div>
+        <div id="navy">
+            <h2> Indian Navy</h2>
+            <img src="navy.jpg" alt="Indian Navy">
+            The Indian Navy is the maritime branch of the Indian Armed Forces. The President of India is the Supreme Commander of the Indian Navy. The Chief of Naval Staff, a four-star admiral, commands the navy. As a blue-water navy, it operates significantly in the Persian Gulf Region, the Horn of Africa, the Strait of Malacca, and routinely conducts anti-piracy operations and partners with other navies in the region. 
+        </div>
+        <div id="airforce">
+            <h2>Indian Airforce</h2>
+            <img src="airforce.jpg" alt="Indian Airforce">
+            The Indian Air Force (IAF) is the air arm of the Indian Armed Forces. Its primary mission is to secure Indian airspace and to conduct aerial warfare during armed conflicts. It was officially established on 8 October 1932 as an auxiliary air force of the British Empire which honoured India's aviation service during World War II with the prefix Royal.
+
+        </div>
+    </body>
+</html>
