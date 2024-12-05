@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head><title>Application Form</title>
+<style>
+
+body {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: honeydew;
+max-width:600px; margin: auto;
+}
+div{
+background-color:rgb(17, 214, 240); color:navy;
+}
+input, textarea { padding: 5px; margin: 10px;
+}
+input[type='number'], input[type='date']{ width: 296px;
+ 
+}
+h3{
+    background-color:rgb(148, 119, 201); color:white;
+
+}
+ 
+
+
+
+ 
+table{
+background-color:rgb(205, 50, 50);
+}
+
+input[type='submit'], input[type='reset']{ background-color:forestgreen; color:white;
+}
+</style>
+
+</head>
+<body>
+
+<div>
+<center>
+<h2>Infotech India Limited</h2> 
+<h4>RR Nagar, Bengaluru 560098</h4>
+<h2>Employment Application Form</h2>
+</center>
+</div>
+ 
+<form>
+<fieldset> <legend><b>Enter Details</b></legend>
+<table>
+<tr>
+<td><label>Name of the candidate*</label> </td>
+<td> <input type="text" size=40 required ></td>
+</tr>
+
+<tr>
+<td><label>Date of Birth*</label></td>
+<td><input type="date" required></td>
+</tr>
+
+<tr>
+<td><label>Gender*</label></td>
+<td><input type="radio" name="gender">
+<label for="male">Male</label>
+<input type="radio" name="gender" >
+<label for="female">Female</label>
+<input type="radio" name="gender" >
+<label for="other">Other</label>
+</td>
+</tr>
+
+<tr>
+<td><label for="email">Email*</label> </td>
+<td><input type="email" size=40 required placeholder="abc@gmail.com"> </td>
+</tr>
+
+<tr>
+<td><label for="phone">Phone*</label></td>
+<td><input type="tel" size=40 required placeholder="10 digits" ></td>
+</tr>
+
+<tr>
+<td><label for="address" >Address*</label></td>
+<td><input type="text" size=40 required></td>
+</tr>
+
+<tr>
+<td><label for="we">Work Experience (years)*</label></td>
+<td><input type="number" required placeholder="No. of years" min="0" max="50" ></td>
+</tr>
+ 
+<tr>
+<td><label>Preferred Work location*</label></td>
+<td><input type="checkbox" > <label for="onsite">Onsite</label>
+<input type="checkbox" > <label for="remote">Remote</label> </td>
+</tr>
+
+<tr>
+<td><label>Reference</label></td>
+<td><textarea cols="39" rows="4"></textarea></td>
+</tr>
+
+<tr>
+<td><label for="document">Upload your resume (pdf/docx)*</label></td>
+<td><input type="file" accept=".pdf, .doc, .docx" required></td>
+</tr>
+</fieldset>
+</form>
+<tr>
+<th colspan="2"><input type="submit">
+<input type="reset"> </th>
+</tr>
+
+</body>
+</html
