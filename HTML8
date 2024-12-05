@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workshop Registration</title>
+        <style>
+            body{
+                background-color: powderblue;
+            }
+            title{
+                text-align: center;
+                color:yellow;
+                background-color: red;
+
+            }
+            input[type="text"],input[type="email"],input[type="number"]{
+                width: 97%;
+                padding: 10px;
+                margin:5px;
+                border-radius: 10px;
+
+            }
+            input[type="submit"]{
+                background-color: rgb(266,102,0);
+                height: 30px;
+                font-weight: bolder;
+            }
+            form{
+                font-weight: bolder;
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <center><img src="./workshop.jpg" height="190px" width="1550px"></center>
+        <div>
+            <center>
+                <h2>Workshop Registration</h2>
+                <h3>25-28 November 2024</h3>
+                <em>Department of CSE, GAT, Bengaluru 560098</em>
+            </center>
+        </div>
+        <br><br>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" required placeholder="abc@gmail.com"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" required><br><br>
+            <label for="Organization">Organization:</label>
+            <input type="text" required><br><br>
+            <label>Topics:</label><br><br>
+            <select>
+                <option value="block">Blockchain Technology</option>
+                <option value="quantum">Quantum Computing</option>
+                <option value="lifi">Li-Fi Technology</option>
+                <option value="green">Green Computing</option>
+                
+            </select>
+            <br><br>
+            <br><br>
+            <center>
+                <input type="submit" value="submit">
+            </center>
+    
+        </form>
+    
+    </body>
+</html>
