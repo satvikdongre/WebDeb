@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head> <title>College Website </title>
+<style>
+body {
+background-color: #ddedf1;
+font-family: 'Arial', sans-serif;
+}
+h5{
+color:brown;
+}
+#img-float {
+float: left;
+}
+#image2:hover {
+transform: scale(1.05);
+}
+
+#center {
+text-align: center;
+}
+</style>
+</head>
+<body>
+<img src="images/gat.png" id="img-float" height="90px" width="90px" >
+<h2>Global Academy of Technology</h2>
+<h5>Growing Ahead of Time....<br>Autonomous Institute, Affiliated to VTU</h5>
+<div id="center">
+<img id="image2" src="images/gat1.jpg" alt="Description of the image" >
+</div>
+<p id="center">
+GAT provides ample opportunities for various co-curricular and extra-curricular activities
+for the students. <br>
+The campus brims with more than 3500 students and 300 experienced staff involved in
+effective Teaching and
+Learning Process. <br>
+Academics is supplemented with mentoring, peer learning and counselling to ensure
+holistic development of students.<br>
+</p>
+<div id="center">
+<p><b>AFFILIATED TO VTU </b></p>
+<img src="images/vtu.jpg" height="100px" width="100px">
+<p><b>APPROVED BY AICTE</b> </p>
+<img src="images/aicte.png" height="100px" width="100px" >
+</div>
+</body>
+</html>
