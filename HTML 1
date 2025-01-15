@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Share Your Travels-New York </title> </head>
+<body>
+<header>
+<h1>Share Your Travels</h1>
+<h2>New York - Central Park</h2>
+</header>
+<ul>
+<li> <a href="#description"> Description </a> </li>
+<li> <a href="#related">Related Photos </a> </li>
+<li> <a href="#reviews">Reviews </a> </li>
+</ul>
+<section>
+<h2 id="description">Description</h2>
+This photo of Conservatory Pond in
+<a href="http://www.centralpark.com"> Central Park </a>
+in New York City</a> was taken on <time> October 22,2011 </time>
+with a Canon EOS 30D camera. <br> <br>
+<a href="images/large-central-park.jpg">
+<img src="images/central-park.jpg" alt="Central Park"> </a> <br>
+<em> Conservatory Pond in Central Park </em>
+</section>
+<section>
+<p>Share:
+<img src="images/social/email_16.png" alt="Email this to someone">
+<img src="images/social/rss_16.png" alt="rss to someone">
+<img src="images/social/twitter_16.png" alt="twiter">
+<img src="images/social/facebook_16.png" alt="facebook">
+<img src="images/social/flickr_16.png" alt="flickr">
+</p>
+</section>
+<section>
+<h2 id="related">Related Photos </h2>
+<img src="images/related-square1.jpg" alt="square1">
+<img src="images/related-square2.jpg" alt="square2">
+</section>
+2
+<section>
+<h2 id="reviews"> Reviews </h2>
+<p> By ricardo on <time> September 15, 2015 </time></p>
+<p>Easy on the HDR buddy </p>
+<hr>
+</section>
+<section>
+<p> By Susan on <time> October 1, 2015 </time> </p>
+<p> I love Central Park </p>
+<hr>
+</section>
+<footer>
+<p> <em> Copyright &copy; <time>2015</time> Share Your Travels </em> </p>
+</footer>
+</body>
+</html>
